@@ -1,0 +1,25 @@
+site_name: AtomicSupergeek
+site_url: https://AtomicSupergeek.github.io/
+
+theme:
+   name: material
+   # name: minty
+   features:
+      - navigation.tabs
+      - navigation.sections
+      - navigation.top
+      - search.suggest
+      - search.highlight
+
+plugins:
+   - search
+
+nav: 
+   - Home: index.md
+   - Linux: 
+      - SSH Basics: Linux/ssh-basics.md
+      - Text Editors: Linux/text-editors.md
+   - Mac OS:
+      - OpenSSH on Mac: MacOS/openssh.md
+      - Using Python: MacOS/usingpython.md
+      
