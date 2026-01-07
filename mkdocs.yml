@@ -8,6 +8,7 @@ theme:
       - navigation.tabs
       - navigation.sections
       - navigation.top
+      - toc.integrate
       - search.suggest
       - search.highlight
 
@@ -22,4 +23,4 @@ nav:
    - Mac OS:
       - OpenSSH on Mac: MacOS/openssh.md
       - Using Python: MacOS/usingpython.md
-      
+
